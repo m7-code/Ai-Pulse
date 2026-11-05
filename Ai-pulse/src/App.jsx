@@ -4,7 +4,9 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './pages/Home';
 import Community from './pages/Community';
-import Talent from './pages/Talent'; // Import kiya
+import Talent from './pages/Talent';
+import Jobs from './pages/Jobs';
+import Pricing from './pages/Pricing'; // Import kiya
 
 function App() {
   return (
@@ -16,7 +18,9 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/community" element={<Community />} />
-            <Route path="/talent" element={<Talent />} /> {/* New Route */}
+            <Route path="/talent" element={<Talent />} />
+            <Route path="/jobs" element={<Jobs />} />
+            <Route path="/pricing" element={<Pricing />} /> {/* New Route */}
           </Routes>
         </div>
 

@@ -1,0 +1,80 @@
+export const jobsData = [
+  {
+    id: 1,
+    company: "Northwind Robotics",
+    isFeatured: true,
+    title: "ML Infrastructure Engineer",
+    level: "Senior",
+    type: "Full Time",
+    workplace: "Hybrid",
+    salary: "$170k – $215k",
+    location: "Boston, MA",
+    time: "about 1 month ago",
+    logoBg: "bg-gradient-to-tr from-blue-600 to-purple-500"
+  },
+  {
+    id: 2,
+    company: "Lattice Labs",
+    isFeatured: true,
+    title: "Senior ML Engineer, Evaluation",
+    level: "Senior",
+    type: "Full Time",
+    workplace: "Remote",
+    salary: "$180k – $240k",
+    location: "Remote (US/EU)",
+    time: "about 1 month ago",
+    logoBg: "bg-gradient-to-tr from-cyan-400 to-blue-500"
+  },
+  {
+    id: 3,
+    company: "Lattice Labs",
+    isFeatured: true,
+    title: "Research Scientist, Reasoning",
+    level: "Lead",
+    type: "Full Time",
+    workplace: "Hybrid",
+    salary: "$220k – $320k",
+    location: "San Francisco, CA",
+    time: "about 1 month ago",
+    logoBg: "bg-gradient-to-tr from-cyan-400 to-blue-500"
+  },
+  {
+    id: 4,
+    company: "Clearview Health AI",
+    isFeatured: false,
+    title: "ML Research Intern",
+    level: "Junior",
+    type: "Internship",
+    workplace: "Hybrid",
+    salary: "$45 – $60",
+    location: "New York, NY",
+    time: "about 1 month ago",
+    logoBg: "bg-gradient-to-tr from-purple-500 to-indigo-500"
+  },
+  {
+    id: 5,
+    company: "Northwind Robotics",
+    isFeatured: false,
+    title: "Robotics Perception Engineer",
+    level: "Mid",
+    type: "Full Time",
+    workplace: "Onsite",
+    salary: "$140k – $185k",
+    location: "Boston, MA",
+    time: "about 1 month ago",
+    logoBg: "bg-gradient-to-tr from-blue-600 to-purple-500"
+  },
+  {
+    id: 6,
+    company: "Clearview Health AI",
+    isFeatured: false,
+    title: "Applied NLP Engineer",
+    level: "Mid",
+    type: "Full Time",
+    workplace: "Remote",
+    salary: "$150k – $190k",
+    location: "Remote (US)",
+    time: "about 1 month ago",
+    logoBg: "bg-gradient-to-tr from-purple-500 to-indigo-500"
+  }
+];
